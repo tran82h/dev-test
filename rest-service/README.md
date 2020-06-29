@@ -13,4 +13,3 @@ If you run into any issue with the following command, you can also run each comm
 
 To run the http server:
 Run `go run main.go` from the `rest-service` directory.
-# dev-test
