@@ -28,12 +28,12 @@ To get the requested person with an id given:
 curl -X GET 'http://localhost:1323/people/df12ce76-767b-4bf0-bccb-816745df9e70'
 ```
 
-To get the requested person base on the first and last name given:
+To get the requested people base on the first and last name given:
 ``` bash
 curl -X GET 'http://localhost:1323/people?first_name=John&last_name=Doe'
 ```
 
-To get the requested person base on the phone number given:
+To get the requested people base on the phone number given:
 ``` bash
 curl -X  GET 'http://localhost:1323/people?phone_number=+1%20(800)%20555-1313'
 ```
