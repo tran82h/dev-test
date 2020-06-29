@@ -13,3 +13,17 @@ If you run into any issue with the following command, you can also run each comm
 
 To run the http server:
 Run `go run main.go` from the `rest-service` directory.
+
+## Curl Request:
+
+To get all people in the system:
+`curl -X GET http://localhost:1323/people`
+
+To get the requested person with an id given:
+`curl -X GET http://localhost:1323/people/df12ce76-767b-4bf0-bccb-816745df9e70`
+
+To get the requested person base on the first and last name given:
+`curl -X GET 'http://localhost:1323/people?first_name=John&last_name=Doe'`
+
+To get the requested person base on the phone number given:
+`curl -X  GET 'http://localhost:1323/people?phone_number=+1%20(800)%20555-1313'`
