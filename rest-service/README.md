@@ -15,7 +15,7 @@ If you run into any issue with the following command, you can also run each comm
 make clean
 ```
 To run the http server:
-Run ``` bash go run main.go``` from the `rest-service` directory.
+Run ```go run main.go``` from the `rest-service` directory.
 
 ## Curl Request:
 
