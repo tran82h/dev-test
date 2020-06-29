@@ -21,11 +21,11 @@ Run ``` bash go run main.go``` from the `rest-service` directory.
 
 To get all people in the system:
 ``` bash
-curl -X GET http://localhost:1323/people
+curl -X GET 'http://localhost:1323/people'
 ```
 To get the requested person with an id given:
 ``` bash
-curl -X GET http://localhost:1323/people/df12ce76-767b-4bf0-bccb-816745df9e70
+curl -X GET 'http://localhost:1323/people/df12ce76-767b-4bf0-bccb-816745df9e70'
 ```
 
 To get the requested person base on the first and last name given:
