@@ -58,7 +58,7 @@ func getPersonOnID(c echo.Context) error {
 
 	person, err := models.FindPersonByID(uid)
 	if err != nil {
-		return c.JSON(http.StatusNotFound, err)
+		return c.JSON(http.StatusNotFound, err.Error())
 	}
 
 	return c.JSON(http.StatusOK, person)
