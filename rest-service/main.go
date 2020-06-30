@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/backend-developer-tests/rest-service/pkg/models"
+	"github.com/dev-test/rest-service/pkg/models"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	uuid "github.com/satori/go.uuid"
